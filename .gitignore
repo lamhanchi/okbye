@@ -1,57 +1,24 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
 
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*,cover
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
+print '''+-----------------------------------------------------------------------+
++ WELCOM TO OUR CALCULATOR (Version 1.0)                                     +
++-----------------------------------------------------------------------+
+'''
+print "Here's a tiny piece of fun Maths \n \t* Type \"Any calcul To Access\"  * "
+Click1 = input("[Enter] : ")
+name = raw_input ( "Step 1  tape your name : ")
+print "All right Ms.%s" %(name)
+print "Tell as why you used our operation  :   "
+x = raw_input ()
+wait_pls = """+----------------------+
++  Details +
++----------------------+"""
+print "%s" %wait_pls
+print "You used it for \"%s\"" % x
+print raw_input ("ENTER PLEASE  : ")
+print """"
+~~~~~~~~~~~~~~~~~~~
+\a\a\a\a\a\a\a\a\a
+~~~~~~~~~~~~~~~~~~~~~~~   
+"""
+calcul = input("Use Calculator :  ")
+print "Your result is : %r" %calcul
