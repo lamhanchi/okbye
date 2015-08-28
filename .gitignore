@@ -22,3 +22,4 @@ print """"
 """
 calcul = input("Use Calculator :  ")
 print "Your result is : %r" %calcul
+# hahaha the best 
